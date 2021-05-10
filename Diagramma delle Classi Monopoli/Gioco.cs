@@ -30,6 +30,54 @@ namespace Diagramma_delle_Classi_Monopoli
             }
         }
 
+        public List<Carta> Carte
+        {
+            get
+            {
+                return _carteGioco;
+            }
+            private set
+            {
+                _carteGioco = value;
+            }
+        }
+
+        public List<Proprieta> Proprieta
+        {
+            get
+            {
+                return _proprieta;
+            }
+            private set
+            {
+                _proprieta = value;
+            }
+        }
+
+        public List<Probabilita> Probabilita
+        {
+            get
+            {
+                return _probabilita;
+            }
+            private set
+            {
+                _probabilita = value;
+            }
+        }
+
+        public List<Imprevisto> Imprevisti
+        {
+            get
+            {
+                return _imprevisti;
+            }
+            private set
+            {
+                _imprevisti = value;
+            }
+        }
+
         public List<Carta> Deserializzazione()
         {
             List<Carta> nuovoVideogioco = new List<Carta>();
