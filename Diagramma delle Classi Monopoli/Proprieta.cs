@@ -12,7 +12,6 @@ namespace Diagramma_delle_Classi_Monopoli
         private int _costo;
         private int _numCase;
         private bool _hotel;
-        private int _costoVendita;
 
         public Proprieta(string id, string titolo, string desc, ImageSource source, string col, int cost, int numC, bool h)
         {
@@ -26,29 +25,17 @@ namespace Diagramma_delle_Classi_Monopoli
             Hotel = h;
         }
 
-        public Proprieta(string col, int cost, int numC, bool h, int costV)
+        public Proprieta(string col, int cost, int numC, bool h)
         {
             Colore = col;
             Costo = cost;
             NumCase = numC;
             Hotel = h;
-            CostoVendita = costV;
         }
 
         public int CostoVendita
         {
-            get => _costoVendita;
-            set //calcola la metà del costo e lo restituisce nel get
-            {
-                if (_costo >= 0)
-                {
-                    _costoVendita = _costo / 2;
-                }
-                else
-                {
-                    _costoVendita = value;
-                }
-            }
+            get => Costo/2;
         }
 
         public string Colore
