@@ -81,5 +81,6 @@ namespace Diagramma_delle_Classi_Monopoli
                     _numCase = value;
                 }
             }
+        }
     }
 }
