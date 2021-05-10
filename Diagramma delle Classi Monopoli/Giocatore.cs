@@ -155,5 +155,17 @@ namespace Diagramma_delle_Classi_Monopoli
                 _sesso = value;
             }
         }
+
+        public void AggiungiProprieta(Proprieta proprieta)
+        {
+            foreach(Proprieta p in Proprieta)
+            {
+                if(/*Controllo su id uguale */)
+                {
+                    throw new Exception("La proprietà è già presente");
+                }
+            }
+            Proprieta.Add(proprieta);
+        }
     }
 }
