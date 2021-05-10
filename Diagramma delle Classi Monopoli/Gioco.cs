@@ -47,5 +47,44 @@ namespace Diagramma_delle_Classi_Monopoli
             return nuovoVideogioco;
         }
 
+        public List<Proprieta> DiscretizzaProprieta(List<Carta> carte)
+        {
+            List<Proprieta> listaCarteProprieta = new List<Proprieta>();
+            foreach(Carta carta in carte)
+            {
+                if(carta is Proprieta)
+                {
+                    listaCarteProprieta.Add(carta as Proprieta);
+                }
+            }
+            return listaCarteProprieta;
+        }
+
+        public List<Probabilita> DiscretizzaProbabilita(List<Carta> carte)
+        {
+            List<Probabilita> listaCarteProbabilita = new List<Probabilita>();
+            foreach (Carta carta in carte)
+            {
+                if (carta is Probabilita)
+                {
+                    listaCarteProbabilita.Add(carta as Probabilita);
+                }
+            }
+            return listaCarteProbabilita;
+        }
+
+        public List<Imprevisto> DiscretizzaImprevisto(List<Carta> carte)
+        {
+            List<Imprevisto> listaCarteImprevisto = new List<Imprevisto>();
+            foreach (Carta carta in carte)
+            {
+                if (carta is Imprevisto)
+                {
+                    listaCarteImprevisto.Add(carta as Imprevisto);
+                }
+            }
+            return listaCarteImprevisto;
+        }
+
     }
 }
