@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Diagramma_delle_Classi_Monopoli.Client">
-    <Position X="1" Y="2.75" Width="1.5" />
+    <Position X="1" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Client.cs</FileName>
@@ -10,7 +10,7 @@
   <Class Name="Diagramma_delle_Classi_Monopoli.Giocatore">
     <Position X="5.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAACAAAAFAAAAAAAAIAAAAAAAAIAAAAiAAAAA=</HashCode>
+      <HashCode>AAABAAQAASAAAAFAAAAQAAAIIAQACAAAIAAAAiAAAgA=</HashCode>
       <FileName>Giocatore.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -45,7 +45,7 @@
   <Class Name="Diagramma_delle_Classi_Monopoli.Gioco">
     <Position X="3.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>Gioco.cs</FileName>
     </TypeIdentifier>
   </Class>
