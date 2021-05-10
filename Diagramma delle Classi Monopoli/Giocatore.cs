@@ -160,7 +160,7 @@ namespace Diagramma_delle_Classi_Monopoli
         {
             foreach(Proprieta p in Proprieta)
             {
-                if(/*Controllo su id uguale */)
+                if(proprieta.ID == p.ID)
                 {
                     throw new Exception("La proprietà è già presente");
                 }
