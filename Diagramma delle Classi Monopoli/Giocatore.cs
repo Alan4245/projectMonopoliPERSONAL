@@ -17,6 +17,15 @@ namespace Diagramma_delle_Classi_Monopoli
         private bool _sesso;
         private int _eta;
 
+        public Giocatore(string nickname, bool sesso, int eta)
+        {
+
+            Nickname = nickname;
+            Sesso = sesso;
+            Eta = eta;
+
+        }
+
         public int Denaro
         {
             get
